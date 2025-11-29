@@ -1,0 +1,123 @@
+* {
+    font-family:'Trebuchet MS';
+}
+
+header, footer {
+    text-align:center;
+    background-color:rgb(119, 255, 142);
+}
+
+li {
+    display:inline-block;
+    text-align:center;
+    font-size:23px;
+    padding: 2px;
+    margin-right:50px;
+}
+
+li a:link {
+    background-color: #02942e;
+    color: #fffefe;
+}
+li a:visited {
+    background-color:#0d9e00; 
+    color: #fffefe;
+}
+
+li a:hover,
+li a:active {
+    background-color: #289248; 
+}
+#paris {
+    p {
+        width:fit-content;
+        text-align:center;
+    }
+p:nth-child(3) {
+    background-color: #0044d8;
+    color: white;
+}
+    p:nth-child(4) {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+p:nth-child(5) {
+    background-color: #f80000;
+    color: white;
+}
+}
+
+
+#paris, #kyoto, #batanes {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#paris:hover{
+    transform: scale(1.006);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-image: url(paris.jfif);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#kyoto {
+     p {
+        width:fit-content;
+        text-align:center;
+    }
+     p:nth-child(3) {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+    p:nth-child(4) {
+        background-color: #f80000;
+        color: white;
+    }
+     p:nth-child(5) {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+}
+#kyoto:hover{
+    transform: scale(1.006);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-image: url(kyoto.jfif);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#batanes {
+     p {
+        width:fit-content;
+        text-align:center;
+    }
+    p:nth-child(3) {
+    background-color: #0044d8;
+    color: white;
+    }
+    p:nth-child(4) {
+        background-color: #f0ff69;
+        color: rgb(0, 0, 0);
+    }
+
+    p:nth-child(5) {
+    background-color: #f80000;
+    color: white;
+    }
+}
+#batanes:hover{
+    transform: scale(1.006);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-image: url(batanes.jfif);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h2 {
+    background-color:White;
+    width:fit-content;
+}
